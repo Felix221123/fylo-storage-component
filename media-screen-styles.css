@@ -36,12 +36,7 @@
         height: 10.5em;
     }
     
-    .indicator-ball{
-        width: 0.7em;
-        height: 0.7em;
-        top: 0.005em;
-        left: -4.55em;
-    }
+    
     .floating-comment-section{
         border-radius: 0.5em;
         top:1em;
@@ -83,21 +78,6 @@
         place-content: center;
     }
     
-    meter{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 16em;
-        /* background-color: red; */
-        margin: 0rem auto;
-        
-    }
-    .indicator-ball{
-        width: 0.7em;
-        height: 0.7em;
-        top: 0.005rem;
-        left: -4.55rem;
-    }
 
     .data-remaining-block{
         margin-top: 0;
@@ -114,16 +94,5 @@
     }
 }
 
-@media (min-width:960px) and (max-width:1100px){
-    .indicator-ball{
-        left: -6.35rem;
-        width:2rem;
-    }
-}
 
-@media (min-width:1100px) and (max-width:1440px){
-    .indicator-ball{
-        left: -6.2rem;
-        width:2rem;
-    }
-}
+

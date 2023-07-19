@@ -121,42 +121,46 @@ h2{
 
 }
 
-.meter-box{
-    width: 100%;
+.meter-bar{
+    width: 98%;
     display: flex;
     justify-content: center;
     place-items: center;
 }
 
-meter{
-    margin: 0.1rem auto;
+.meter{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
     width: 100vw;
-    height: 2.5rem;
-}
-
-meter::-webkit-meter-bar{
-    background-color:hsla(228, 57%, 14%, 0.7);
+    height: 1.1rem;
     padding: 0.15rem;
     border-radius: 1rem;
     border: none;
+    background-color:hsla(228, 57%, 14%, 0.6);
 }
 
-meter::-webkit-meter-optimum-value{
-    --border-color:white;
+.progress-bar{
+    width:81.5%;
+    height: 100%;
     border-radius:1rem ;
     background: var(--data-remaining-gradient-color);
-
+    display:flex;
+    justify-content: flex-end;
+    align-items:center ;
+    
 }
+
 
 .indicator-ball{
     --indicator-size:1rem;
     content:"";
     position: relative;
-    width: 2.3rem;
+    margin-right: 0.1rem;
+    width: 0.7rem;
     height: 0.7rem;
     background: white;
-    top: 0.005rem;
-    left: -6.2rem;
     border-radius: 50%;
 
 }

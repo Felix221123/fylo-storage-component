@@ -42,9 +42,14 @@
           </div>
 
           <div class="data-reading">
-            <div class="meter-box">
-              <meter id="internet-data" min="o" value="815" max="1000"> at 815/1000</meter>
-              <div class="indicator-ball"></div>
+            <div class="meter-bar">
+              <!-- since the meter bar is not working due to the webkit-meter-bar not working on safari and chrome, the use of divs will be used -->
+              <div class="meter">
+                <div class="progress-bar">
+                  <div class="indicator-ball"></div>
+                </div>
+              </div>
+              <!-- <meter id="internet-data" min="0" value="815" max="1000"> at 815/1000</meter> -->
             </div>
             <div class="data-start-and-end">
               <p>0 GB</p>
