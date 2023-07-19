@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="media-screen-styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+
+  <body>
+    <main>
+
+      <div class="fylo-block-and-data-remaining-block">
+        <div class="fylo-block">
+
+          <heading>
+            <img src="images/logo.svg" class="logo-img" alt="Logo design for fylo">
+          </heading>
+
+          <div class="storage-materials">
+            <div>
+              <img src="images/icon-document.svg" alt="Document icon image" class="digital-storage-img-style">
+            </div>
+            <div>
+              <img src="images/icon-folder.svg" alt="Folders icon image" class="digital-storage-img-style">
+            </div>
+            <div>
+              <img src="images/icon-upload.svg" alt="Upload icon image" class="digital-storage-img-style">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="data-remaining-block">
+          <div class="text-and-comment-remaining">
+            <h2>You've used <span class="bold-text">815 GB</span> of your storage</h2>
+          </div>
+
+          <div class="data-reading">
+            <div class="meter-box">
+              <meter id="internet-data" min="o" value="815" max="1000"> at 815/1000</meter>
+              <div class="indicator-ball"></div>
+            </div>
+            <div class="data-start-and-end">
+              <p>0 GB</p>
+              <p>1000 GB</p>
+            </div>
+          </div>
+
+          <div class="floating-comment-section">
+            <div class="commemt-section">
+              <p><span class="comment-section-big-number">185  </span><span class="comment-section-small-text"> gb left</span></p>
+            </div>
+            <div class="triangle"></div>
+          </div>
+            
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+        Coded by <a href="https://www.frontendmentor.io/profile/Felix221123" target="_blank">Felix Baah</a>.
+      </div>
+    </main>
+  </body>
+</html>
