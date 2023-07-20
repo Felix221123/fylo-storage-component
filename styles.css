@@ -247,7 +247,7 @@ h2{
 }
 
 div.attribution{
-    margin: 3rem auto;
+    margin: 0.2rem auto;
     text-align: center;
     font-family: var(--font-style);
     color: var(--bold-text-comment-background-color);
