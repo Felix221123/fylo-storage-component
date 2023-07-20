@@ -30,27 +30,24 @@ body{
     background-color:hsl(228, 57%, 14%) ;
     background-image: url(images/bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: top 18rem left;
+    background-position: top 16rem left;
     background-size:cover;
     display: inline-flexbox;
     width: 100vw;
     height: 100vh;
-    /* justify-content: center; */
-    
-
 }
 main{
     display: flex;
     place-content: center;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .fylo-block-and-data-remaining-block{
     display: grid;
     grid-template-columns:21rem 33rem;
     column-gap: 3rem;
-    /* place-content: center; */
     margin:12% auto;
 }
 
@@ -140,6 +137,7 @@ h2{
     border-radius: 1rem;
     border: none;
     background-color:hsla(228, 57%, 14%, 0.6);
+    animation:fade-in 1s ease-in-out 1;
 }
 
 .progress-bar{
@@ -149,7 +147,8 @@ h2{
     background: var(--data-remaining-gradient-color);
     display:flex;
     justify-content: flex-end;
-    align-items:center ;
+    align-items:center;
+    animation: progress-bar 2s ease-in-out 1;
     
 }
 
@@ -211,7 +210,25 @@ h2{
     border-bottom: 2rem solid transparent;
     top:3.5rem;
     left: 8.5rem;
+       
+}
+
+@keyframes progress-bar {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 81.5%;
+    }
     
+}
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
     
 }
 

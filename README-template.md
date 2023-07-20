@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here]
-- Live Site URL: [https://fylo-storage-component-app.netlify.app/]
+- Live Site URL: [https://fylo-storage-app.netlify.app/]
 
 ## My process
 
