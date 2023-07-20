@@ -30,7 +30,7 @@ body{
     background-color:hsl(228, 57%, 14%) ;
     background-image: url(images/bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: top 16rem left;
+    background-position: top 21rem left;
     background-size:cover;
     display: inline-flexbox;
     width: 100vw;
